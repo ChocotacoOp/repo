@@ -1,0 +1,56 @@
+#voucher_list{
+    box-sizing: border-box;
+    width:100%;
+    padding:20px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:25px;
+
+}
+#voucher_list>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;;
+    padding:15px;
+    border-radius: 5px;
+}
+
+img{
+    width:100%;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(0, 70, 70);
+    align-items: center;;
+    justify-content: space-between;
+    padding:10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+   
+}
+a{
+    padding:0px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+h3{
+    padding:0px;
+    margin: 0px;
+}
+
+p{
+    font-weight: bold;
+}
+.buy_voucher{
+    background-color: rgb(255, 0, 98);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
